@@ -1,0 +1,84 @@
+styles.css
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  background-color: #f0f2f5;
+  font-family: 'DM Sans', sans-serif;
+  color: #333;
+}
+ 
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+ 
+.card-white {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ 
+/* INTRO CARD */
+.card-white h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+ 
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: 24px;
+  border: 3px solid #eee;
+}
+ 
+.card-white p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+ 
+.card-white a {
+  color: #5b6af0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+ 
+.card-white a:hover {
+  text-decoration: underline;
+}
+ 
+/* SECTION CARDS */
+.card-white h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+ 
+.card-white h2.ux      { color: #7ec8a4; }
+.card-white h2.frontend { color: #5cb85c; }
+.card-white h2.rails   { color: #e05c5c; }
+ 
+.card-white .section-text {
+  font-size: 0.92rem;
+  color: #666;
+}
+ 
+.card-white .section-text strong {
+  color: #333;
+}
